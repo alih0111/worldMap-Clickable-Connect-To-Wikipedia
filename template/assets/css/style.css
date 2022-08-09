@@ -1,0 +1,50 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    direction: ltr;
+    box-sizing: border-box;
+    font-family: "irans";
+    background-color: #ededed;
+}
+
+@font-face {
+    font-family: "irans";
+    src: url("../fonts/IRANSansWeb.woff");
+}
+
+section.country{
+    margin-top: 100px;
+}
+.country__inner{
+    padding: 26px 16px;
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+}
+.country__inner img{
+    margin-bottom: 20px;
+    width: 200px;
+}
+.country__inner__list{
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.country__inner__list div:nth-child(1){
+    color: #007bec;
+    font-weight: bold;
+    font-size: 16px;
+    min-width: 150px;
+    margin-right: 10px;
+    text-align: left;
+}
+.country__inner__list div:nth-child(2){
+    font-size: 14px;
+    color: #ff1a3c;
+    min-width: 75px;
+    text-align: left;
+    display: inline-block;
+}
+
